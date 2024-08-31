@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("assets/backiee-296766.jpg");
+    
+ 
+}
+
+
+
+
+.caixa{
+    background-color: black;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    left: 480px;
+    top: 150px;
+    padding: 40px;
+    opacity: 0.8;
+    border-radius: 24px;
+    height: 400px;
+    width: 500px;
+}
+.Itens{
+    color: antiquewhite;
+    position: relative;
+    top: 20px;
+    font-family: 'Open Sans', sans-serif;;
+
+}
+.descricao{
+    text-transform: capitalize;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: rgb(39, 37, 37);
+    color: white;
+    width: 80%;
+}
+
+.lupa{
+    height: 20px;
+  
+
+
+}
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0.8;
+    float: right;
+    cursor: pointer;
+}
+
+
+#humidity{
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color:rgb(75, 72, 72); ;
+}
+p{
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;    
+}
+.icone{
+    align-items: center;
+    margin-bottom: 10px;
+}
+@media (max-width: 1366px){
+    .caixa{
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 450px;
+    }
+    .Itens{
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+}
+@media only screen and (max-width: 767px) {
+    .caixa {
+      width: 100%;
+      position: relative;
+      height: 80%;
+      top: 200px;
+     
+    }
+    .Itens {
+        position: relative;
+        left: 20px;
+    }
+    input {
+      width: 100%;
+      position: relative;
+      right: 30px;
+    }
+    button{
+      position: relative;
+      bottom: 43px;
+      left: 20px;
+    }
+  }
