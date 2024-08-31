@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-image: url("assets/backiee-296766.jpg");
     
  
 }
@@ -17,7 +17,7 @@ body{
     width: 400px;
     text-align: center;
     position: relative;
-    left: 440px;
+    left: 480px;
     top: 150px;
     padding: 40px;
     opacity: 0.8;
@@ -85,11 +85,30 @@ p{
     align-items: center;
     margin-bottom: 10px;
 }
+@media (max-width: 1366px){
+    .caixa{
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 450px;
+    }
+    .Itens{
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+}
 @media only screen and (max-width: 767px) {
     .caixa {
       width: 100%;
-      left: 0;
-      height: 350px;
+      position: relative;
+      height: 80%;
+      top: 200px;
+     
+    }
+    .Itens {
+        position: relative;
+        left: 20px;
     }
     input {
       width: 100%;
